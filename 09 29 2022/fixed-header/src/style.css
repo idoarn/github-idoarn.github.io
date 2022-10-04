@@ -1,0 +1,61 @@
+.container {
+  height: 70px;
+  width: 800px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-bottom: 10px solid white;
+}
+
+.cyan {
+  height: 30px;
+  width: 90px;
+  background-color: cyan;
+  border: none;
+  margin: 10px;
+}
+
+.button2 {
+  width: 150px;
+}
+
+.content {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+.yellow {
+  background-color: lime;
+  flex-grow: 1;
+  margin-left: 100px;
+}
+
+.lime {
+  background-color: yellow;
+  flex-grow: 4;
+  margin-right: 100px;
+}
+
+footer {
+  width: 800px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 590px;
+}
+
+.footerbody {
+  background-color: lightgray;
+  flex-grow: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+}

@@ -1,0 +1,15 @@
+div {
+  font-family: "Sen", sans-serif;
+}
+
+a {
+  display: block;
+  color: green;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: lime;
+  text-decoration: none;
+}

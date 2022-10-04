@@ -1,0 +1,21 @@
+.container {
+  background-color: #ffd62a;
+  width: 400px;
+  height: 150px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  /* align-items: center; -- arrange 2 */
+  /* align-items: center;
+  justify-content: space-between; - arrange 3 */
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.item {
+  background-color: #b02afe;
+  width: 50px;
+  height: 50px;
+  /* margin-right: 5px; -- arrange 1 */
+  margin-left: 5px;
+}

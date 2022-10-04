@@ -1,0 +1,15 @@
+div {
+  font-family: "Comfortaa", cursive;
+}
+.orange {
+  color: rgb(255, 87, 51);
+}
+.purple {
+  color: rgb(143, 31, 216);
+}
+.pink {
+  color: rgb(242, 16, 240);
+}
+.underlined {
+  text-decoration: underline;
+}

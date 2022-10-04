@@ -1,0 +1,139 @@
+body {
+  margin-top: 0;
+}
+
+.backgroundimage {
+  width: 1200px;
+  height: 378.341px;
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-repeat: no-repeat;
+  background-size: 1200px 378.341px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anakin {
+  font-family: "Abril Fatface", cursive;
+  font-weight: lighter;
+  line-height: 1;
+  color: #222;
+  margin: 0;
+  position: relative;
+  top: 235px;
+  left: 265px;
+}
+
+h2.name {
+  font-size: 35px;
+}
+
+h1.anakin {
+  font-size: 70px;
+}
+
+.intro {
+  width: 750px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3;
+  font-size: 17px;
+  color: #222;
+}
+
+.introtext {
+  margin-left: 30px;
+}
+
+.experience,
+.explist {
+  list-style-type: square;
+}
+
+.quotetext::before {
+  content: ",,";
+  color: white;
+  font-size: 120px;
+  letter-spacing: -7px;
+  transform: scale(-1, -1);
+  padding-top: 35px;
+}
+
+.quotetext {
+  width: 685px;
+  height: 170px;
+  background-color: #444444;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-right: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-weight: lighter;
+  font-size: 43px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievements,
+.exp,
+.training {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.3;
+  font-size: 11px;
+  color: #222;
+}
+
+.heading {
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 1;
+}
+
+.text {
+  font-size: 13px;
+}
+
+.lack::before {
+  margin-left: 8px;
+  margin-top: -28px;
+}
+
+.lack,
+.learner {
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.subsubheading {
+  font-size: 13.5px;
+  font-weight: 900;
+}
+
+.list {
+  font-size: 13.5px;
+}
+
+.divline {
+  width: 620px;
+  height: 3px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.interests {
+  margin-bottom: 35px;
+}
