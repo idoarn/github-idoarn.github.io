@@ -13,8 +13,14 @@ h2 {
     font-size: 20px;
 }
 
-h1, h2 {
+.links, h2 {
     margin-left: 40px;
+}
+
+.subheading {
+    margin-left: -15px;
+    color: rgba(229, 82, 195, 0.371);
+    text-decoration: none;
 }
 
 ul {
