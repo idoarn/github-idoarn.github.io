@@ -1,0 +1,101 @@
+body {
+    background: #FEC260;
+}
+
+.container {
+    font-family: 'Amatic SC', cursive;
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: max-content;
+    background-color: #A10035;
+    border-radius: 30px;
+    box-shadow: 7px 7px #3FA796;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-transform: capitalize;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px #2A0944;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.inputcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#input {
+    height: 30px;
+    background-color: #FEC260;
+    opacity: 50%;
+    border: none;
+    border-radius: 15px;
+    text-transform: capitalize;
+    box-shadow: 3px 2px #2A0944;
+    outline: none;
+    color: #2A0944;
+    text-indent: 10px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#plusbutton {
+    font-size: 33px;
+    color: #FEC260;
+    text-shadow: 3px 2px #2A0944;
+    opacity: 50%;
+}
+
+#plusbutton:hover {
+    opacity: 100%;
+}
+
+li{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+    margin-left: -30px;
+    text-shadow: 3px 2px #2A0944;
+}
+
+#remove {
+    margin-left: auto;
+}
+
+#remove, #check {
+    padding: 3px;
+    color: #FEC260;
+    opacity: 50%;
+    text-shadow: none;
+}
+
+#remove:hover {
+    opacity: 100%;
+    text-shadow: 3px 2px #2A0944;
+}
+
+#check:hover {
+    opacity: 100%;
+    text-shadow: 3px 2px #2A0944;
+}
+
+.checked{
+    color: #FEC260;;
+    text-decoration: line-through;
+    opacity: 50%;
+    transition: .2s;
+}
