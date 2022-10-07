@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: #7FDBFF;
+        }
+
+        .fullcounter {
+            height: 300px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border: 5px solid #7FDBFF;
+            box-shadow: 5px 5px #0074D9;
+        }
+
+        h1 {
+            width:fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #number {
+            width: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 40px;
+        }
+        button {
+            width: 50px;
+            height: 50px;
+            font-size: 35px;
+            border-radius: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            background-color: black;
+            color: #7FDBFF;
+            border: 2px solid #7FDBFF;
+            box-shadow: 2px 2px #0074D9;
+        }
+        button:hover {
+            color: #0074D9;
+            border: 2px solid #0074D9;
+            box-shadow: 2px 2px #7FDBFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="fullcounter">
+        <h1>Counter</h1>
+        <div id='container'>
+            <div id='number'>0</div>
+            <button id='increment'>+</button>
+            <button id='decrement'>-</button>
+        </div>
+    </div>
+    <script>
+        let add = document.getElementById('increment');
+        let remove = document.getElementById('decrement');
+        let int = document.getElementById('number');
+        let integer = 0;
+        add.addEventListener('click', function(){
+            integer += 1;
+            int.innerHTML = integer;
+        })
+        remove.addEventListener('click', function(){
+            integer -= 1;
+            int.innerHTML = integer;
+        })
+    </script>
+</body>
+</html>

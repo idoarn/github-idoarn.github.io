@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript training</title>
+    <style>   
+        button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        div {
+            margin-top: 30px;
+            width: 160px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        label {
+            display: block;
+        }
+        input {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <button class="first">This is the first button</button>
+    <button class="second">This is the second button</button>
+    <button type="button" class="third">This is the third button</button>
+    <div>
+        <label for="input">Click on the third button to change its color as you want, but only once:</label>
+        <input id="changer" placeholder="blue">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+    $('.first').click(() => { 
+        console.log('You have clicked on the first button')
+    })
+    
+    $('.second').click(() => {
+        $('.first').text('Got ya!')
+    })
+    
+    $(".third").one("click", function(){
+            $(".third").css("background-color", $("#changer").val());
+        });
+        </script>
+</body>
+</html>
